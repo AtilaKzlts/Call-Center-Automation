@@ -26,6 +26,7 @@ The objective of this project is to extract data from an AWS S3 bucket using Pyt
 
 + Regular Updates: The dashboard is configured to be updated automatically every month, ensuring the data is refreshed regularly. This automation system ensures that up-to-date data is continuously available, allowing users to access the most current information.
 
+[Script](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/etl_script.py)
 ## Conclusion
 
 This project successfully extracts data from an AWS S3 bucket, cleans and prepares it for analysis, writes it to a PostgreSQL database, and visualizes it using Tableau. The dashboard, which is updated automatically every month, allows users to perform performance and trend analyses with the latest data.
