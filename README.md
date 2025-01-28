@@ -16,9 +16,10 @@ The objective of this project is to extract data from an AWS S3 bucket using Pyt
 
 ## Project Steps
 
-+ Extracting Data from AWS S3 Bucket: Using the Boto3 library, data was extracted from the AWS S3 bucket. The extracted data was downloaded in CSV format and loaded into a pandas DataFrame. Data Preparation and Cleaning:
++ Extracting Data from AWS S3 Bucket: Using the Boto3 library, data was extracted from the AWS S3 bucket. The extracted data was downloaded in CSV format and loaded into a pandas DataFrame.
 
-+ Data preparation and cleaning processes, such as filling missing values and removing erroneous records, were performed on the data. Necessary columns for data analysis were selected, and unnecessary columns were removed. Data types were appropriately converted and normalized.
++ Data Preparation and Cleaning:
+Data preparation and cleaning processes, such as filling missing values and removing erroneous records, were performed on the data. Necessary columns for data analysis were selected, and unnecessary columns were removed. Data types were appropriately converted and normalized.
 
 + Writing Data to PostgreSQL Database: After completing the data cleaning processes, a connection to the PostgreSQL database was established using the SQLAlchemy library. The cleaned data was written to appropriate tables in the PostgreSQL database.
 
