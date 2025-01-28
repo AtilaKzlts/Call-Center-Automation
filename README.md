@@ -1,6 +1,6 @@
 ![image](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/bar.png)
 
-# **Performance Dashboard**
+# **Call Center Performance Dashboard**
 
 ### Table of Contents
 
