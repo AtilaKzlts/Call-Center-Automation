@@ -1,6 +1,6 @@
 ![image](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/bar.png)
 
-# **Monthy Performance Dashboard**
+# **Monthly Performance Dashboard**
 
 ### Table of Contents
 
