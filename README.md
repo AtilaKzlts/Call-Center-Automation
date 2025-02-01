@@ -1,6 +1,6 @@
 ![image](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/bar.png)
 
-# **Performance Dashboard**
+# **Monthly Performance Dashboard**
 
 ### Table of Contents
 
@@ -16,9 +16,10 @@ The objective of this project is to extract data from an AWS S3 bucket using Pyt
 
 ## Project Steps
 
-+ Extracting Data from AWS S3 Bucket: Using the Boto3 library, data was extracted from the AWS S3 bucket. The extracted data was downloaded in CSV format and loaded into a pandas DataFrame. Data Preparation and Cleaning:
++ Extracting Data from AWS S3 Bucket: Using the Boto3 library, data was extracted from the AWS S3 bucket. The extracted data was downloaded in CSV format and loaded into a pandas DataFrame.
 
-+ Data preparation and cleaning processes, such as filling missing values and removing erroneous records, were performed on the data. Necessary columns for data analysis were selected, and unnecessary columns were removed. Data types were appropriately converted and normalized.
++ Data Preparation and Cleaning:
+Data preparation and cleaning processes, such as filling missing values and removing erroneous records, were performed on the data. Necessary columns for data analysis were selected, and unnecessary columns were removed. Data types were appropriately converted and normalized.
 
 + Writing Data to PostgreSQL Database: After completing the data cleaning processes, a connection to the PostgreSQL database was established using the SQLAlchemy library. The cleaned data was written to appropriate tables in the PostgreSQL database.
 
@@ -26,6 +27,7 @@ The objective of this project is to extract data from an AWS S3 bucket using Pyt
 
 + Regular Updates: The dashboard is configured to be updated automatically every month, ensuring the data is refreshed regularly. This automation system ensures that up-to-date data is continuously available, allowing users to access the most current information.
 
+[Script](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/etl_script.py)
 ## Conclusion
 
 This project successfully extracts data from an AWS S3 bucket, cleans and prepares it for analysis, writes it to a PostgreSQL database, and visualizes it using Tableau. The dashboard, which is updated automatically every month, allows users to perform performance and trend analyses with the latest data.
