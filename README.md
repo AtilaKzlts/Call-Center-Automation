@@ -4,8 +4,6 @@
   <h1>Monthly Performance Dashboard</h1>
  </p>
 </div>
-<br>
-
 
 ### Table of Contents
 
