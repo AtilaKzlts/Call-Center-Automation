@@ -5,19 +5,13 @@
  </p>
 </div>
 
-### Table of Contents
-
-- Project Introduction
-- Project Steps
-- Conclusion
 
 ## Project Introduction
 
-![image](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/diagram_svg.svg)
-
-The objective of this project is to extract data from an AWS S3 bucket using Python, write the data to a PostgreSQL database, and create a dashboard in Tableau to visualize this data. The dashboard will be updated automatically every month.
+This project successfully extracts data from an AWS S3 bucket, cleans and prepares it for analysis, writes it to a PostgreSQL database, and visualizes it using Tableau. The dashboard, which is updated automatically every month, allows users to perform performance and trend analyses with the latest data.
 
 ## Project Steps
+![image](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/digram_new.svg)
 
 + Extracting Data from AWS S3 Bucket: Using the Boto3 library, data was extracted from the AWS S3 bucket. The extracted data was downloaded in CSV format and loaded into a pandas DataFrame.
 
@@ -31,9 +25,8 @@ Data preparation and cleaning processes, such as filling missing values and remo
 + Regular Updates: The dashboard is configured to be updated automatically every month, ensuring the data is refreshed regularly. This automation system ensures that up-to-date data is continuously available, allowing users to access the most current information.
 
 [Script](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/etl_script.py)
-## Conclusion
 
-This project successfully extracts data from an AWS S3 bucket, cleans and prepares it for analysis, writes it to a PostgreSQL database, and visualizes it using Tableau. The dashboard, which is updated automatically every month, allows users to perform performance and trend analyses with the latest data.
+## Snapshot
 
 [Dashboard](https://public.tableau.com/app/profile/atilla.kiziltas/viz/call_center_dashboard/Dashboard3)
 
