@@ -1,14 +1,14 @@
 ![image](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/bar.png)
 
 <div align="center">
-  <h1>Monthly Performance Dashboard</h1>
+  <h1>Call-Center Monthly Performance Dashboard</h1>
  </p>
 </div>
 
 
 ## Project Introduction
 
-This project successfully extracts data from an AWS S3 bucket, cleans and prepares it for analysis, writes it to a PostgreSQL database, and visualizes it using Tableau. The dashboard, which is updated automatically every month, allows users to perform performance and trend analyses with the latest data.
+This project successfully extracts data from the AWS S3 bucket, cleans it and makes it available for analysis. The data is then written to a PostgreSQL database and visualized using Tableau. The dashboard is automatically updated every month, allowing management to analyze performance and trends with the most up-to-date data. This prevents wasted time, accelerates **data-driven decision-making processes** and makes strategic decisions easier.
 
 ## Project Steps
 ![image](https://github.com/AtilaKzlts/Call-Center-Automation/blob/main/assets/digram_new.svg)
